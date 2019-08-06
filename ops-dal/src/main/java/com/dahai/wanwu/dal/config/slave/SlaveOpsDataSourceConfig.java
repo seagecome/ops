@@ -19,7 +19,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 @MapperScan(basePackages=SlaveOpsDataSourceConfig.BASEPACKAGES,sqlSessionFactoryRef="slaveSqlSessionFactory")
 public class SlaveOpsDataSourceConfig {
 	protected static final String BASEPACKAGES = "com.dahai.wanwu.dal.dao.slave";
-	protected static final String MAPPER_LOCATION = "classpath:com/dahai/wanwu/dal/dao/slave/*.xml";
+	protected static final String MAPPER_LOCATION = "classpath:mappings/ops/slave/*.xml";
 
 	@Value("${spring.datasource.ops.master.url}")
 	private String url;
