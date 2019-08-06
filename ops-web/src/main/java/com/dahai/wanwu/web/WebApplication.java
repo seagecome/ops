@@ -15,7 +15,7 @@ import org.springframework.http.MediaType;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
-import com.dahai.wanwu.zero.share.utils.SpringContextUtil;
+import com.dahai.wanwu.utils.SpringContextUtil;
 import com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration;
 import com.google.common.collect.Lists;
 
