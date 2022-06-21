@@ -15,7 +15,7 @@
 	<properties>
 		<ops.version>2.0.0-SNAPSHOT</ops.version>
 		<java.version>1.8</java.version>
-		<mysql-connector-java.version>8.0.13</mysql-connector-java.version>
+		<mysql-connector-java.version>8.0.28</mysql-connector-java.version>
 	</properties>
 
 
